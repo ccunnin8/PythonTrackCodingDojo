@@ -183,3 +183,15 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #                     line += " "
 #         print line
 # printCheckerboard()
+
+#############
+####Multiplication Table#####
+#############################
+# 
+# print "x 1 2 3 4 5 6 7 8 9 10 11 12"
+# for i in range(1,13):
+#     line = str(i) + " "
+#     for y in range(1,13):
+#         x = y * i
+#         line += str(x) + " "
+#     print line

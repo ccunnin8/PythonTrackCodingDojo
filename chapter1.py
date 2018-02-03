@@ -116,3 +116,34 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # typeList(['magical unicorns',19,'hello',98.98,'world'])
 # typeList([2,3,1,7,4,12])
 # typeList(['magical','unicorns'])
+
+####################
+###Compare Lists######
+#####################
+#####################
+# def compareList(l1,l2):
+#     if len(l1) != len(l2):
+#         print "The lists are not the same"
+#         return False
+#     else:
+#         for index,item in enumerate(l1):
+#             if item != l2[index]:
+#                 print "The lists are not the same"
+#                 return False
+#     print "The lists are the same"
+#     return True
+#
+#
+# list_one = [1,2,5,6,2]
+# list_two = [1,2,5,6,2]
+# compareList(list_one,list_two)
+# list_one = [1,2,5,6,5]
+# list_two = [1,2,5,6,5,3]
+# compareList(list_one,list_two)
+# #copy<div id="copy-toolbar-container" style="cursor: pointer; position: absolute; top: 218.2px; right: 35px; padding: 0px 3px; background: rgba(224, 224, 224, 0.2); box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px 0px; color: rgb(187, 187, 187); border-radius: 0.5em; font-size: 0.8em;"><span id="copy-toolbar">copy</span></div>copy
+# list_one = [1,2,5,6,5,16]
+# list_two = [1,2,5,6,5]
+# compareList(list_one,list_two)
+# list_one = ['celery','carrots','bread','milk']
+# list_two = ['celery','carrots','bread','cream']
+# compareList(list_one,list_two)

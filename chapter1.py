@@ -163,3 +163,23 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # char = 'o'
 #
 # print findChar(word_list,char)
+
+#################
+#######Checkerboard#####
+# ############################
+# def printCheckerboard():
+#     for i in range(0,9):
+#         line = ""
+#         for y in range(1,9):
+#             if i % 2 == 0:
+#                 if y % 2 == 0:
+#                     line += " "
+#                 else:
+#                     line += "*"
+#             else:
+#                 if y % 2 == 0:
+#                     line += "*"
+#                 else:
+#                     line += " "
+#         print line
+# printCheckerboard()

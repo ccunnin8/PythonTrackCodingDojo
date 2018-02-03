@@ -147,3 +147,19 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # list_one = ['celery','carrots','bread','milk']
 # list_two = ['celery','carrots','bread','cream']
 # compareList(list_one,list_two)
+
+############
+###FIND CHARACTERS#####
+##################
+
+# def findChar(l,c):
+#     new_list = []
+#     for word in l:
+#         if c in word:
+#             new_list.append(word)
+#     return new_list
+#
+# word_list = ['hello','world','my','name','is','Anna']
+# char = 'o'
+#
+# print findChar(word_list,char)

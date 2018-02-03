@@ -89,3 +89,30 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # filterByType(100)
 # filterByType("Rubber baby buggy bumpers")
 # filterByType([1,2,3,4,5,6,7,8,9,10])
+
+####################
+##TYPE LIST##
+####################
+#################
+
+# def typeList(item):
+#     string = ""
+#     sum = 0
+#     for x in item:
+#         if type(x) == str:
+#             string += x + " "
+#         else:
+#             sum += x
+#     if sum > 0 and len(string) > 0:
+#         print "The list you entered is of mixed type"
+#         print "String: " + string
+#         print "Sum: " + str(sum)
+#     elif sum == 0:
+#         print "This list you entered is of string type"
+#         print "String: " + string
+#     else:
+#         print "The list you entered is of integer type"
+#         print "Sum: " + str(sum)
+# typeList(['magical unicorns',19,'hello',98.98,'world'])
+# typeList([2,3,1,7,4,12])
+# typeList(['magical','unicorns'])

@@ -68,3 +68,24 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #average list
 # a = [1, 2, 5, 10, 255, 3]
 # print sum(a) / float(len(a))
+
+# def filterByType(item):
+#     if type(item) == int:
+#         if item >= 100:
+#             print "That's a big number"
+#         else:
+#              print "That's a small number"
+#     elif type(item) == str:
+#         if len(item) >= 50:
+#             print "Long sentence."
+#         else:
+#             print "Short sentence."
+#     elif type(item) == list:
+#         if len(item) >= 10:
+#             print "Big list!"
+#         else:
+#             print "Short list."
+# filterByType(45)
+# filterByType(100)
+# filterByType("Rubber baby buggy bumpers")
+# filterByType([1,2,3,4,5,6,7,8,9,10])

@@ -187,7 +187,7 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #############
 ####Multiplication Table#####
 #############################
-# 
+#
 # print "x 1 2 3 4 5 6 7 8 9 10 11 12"
 # for i in range(1,13):
 #     line = str(i) + " "
@@ -195,3 +195,28 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #         x = y * i
 #         line += str(x) + " "
 #     print line
+
+####FOO AND BAR#####
+#################################
+############################
+# def isPrime(x):
+#     y = 2
+#     while (y < x):
+#         if x % y == 0:
+#             return False
+#         y += 1
+#     return True
+#
+# def isPSquare(n):
+#     x = n ** 0.5
+#     return x % 1 == 0
+#
+# for i in range(100,100001):
+#     output = ""
+#     if isPrime(i):
+#         output = "Foo"
+#     elif isPSquare(i):
+#         output = "Bar"
+#     else:
+#         output = "FooBar"
+#     print(output)

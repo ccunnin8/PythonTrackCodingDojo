@@ -313,3 +313,14 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # stars(x)
 # x = [4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"]
 # stars(x)
+
+###########################Making and reading from dictionaries############
+#######################################
+###################################
+# my_info = {
+#     "name": "Corey Cunningham",
+#     "age": 29,
+#     "country": "Estados Unidos",
+#     "favorite language": "Python"
+# }
+# print(my_info["name"])

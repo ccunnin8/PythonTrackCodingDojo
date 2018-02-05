@@ -236,3 +236,29 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #         turtle.forward(DIST)
 #     # add to set distance
 #     DIST += 20
+
+########FUN WITH FUNCTION############
+##############################
+######
+# def odd_even():
+#     for i in range(1,2001):
+#         if i % 2 == 0:
+#             odd_or_even = "even"
+#         else:
+#             odd_or_even = "odd"
+#         print("Number is {}. This is an {} number".format(i,odd_or_even))
+# odd_even()
+#
+def multiply(args,a):
+    return [x * a for x in args]
+
+# print(multiply([1,2,3,4],5))
+
+def layered_multiples(arr):
+    new_arr = []
+    for i in arr:
+        x = [1] * i
+        new_arr.append(x)
+    return new_arr
+
+print(layered_multiples(multiply([2,4,5],3)))

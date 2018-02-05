@@ -299,3 +299,17 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #         print("Got {} head(s) so far and {} tail(s) so far".format(heads,tails))
 #
 # coin_tosses(20)
+
+######################STARS####################
+#####################################
+#################################
+# def stars(arr):
+#     for i in arr:
+#         if type(i) == int:
+#             print("*" * i)
+#         elif type(i) == str:
+#             print(i[0] * len(i))
+# x = [4, 6, 1, 3, 5, 7, 25]
+# stars(x)
+# x = [4, "Tom", 1, "Michael", 5, 7, "Jimmy Smith"]
+# stars(x)

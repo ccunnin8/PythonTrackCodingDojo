@@ -282,3 +282,20 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #     print("End of program. Bye!")
 #
 # scores_and_grades()
+
+# from random import random
+#
+# def coin_tosses(n=5000):
+#     heads, tails = (0,0)
+#     for i in range(n):
+#         coin = round(random())
+#         print("Attempt #{}: Throwing a coin... ".format(i+1),end="")
+#         if coin == 1:
+#             heads += 1
+#             print("It's a head ..",end="")
+#         else:
+#             tails += 1
+#             print("It's a tail! ...",end="")
+#         print("Got {} head(s) so far and {} tail(s) so far".format(heads,tails))
+#
+# coin_tosses(20)

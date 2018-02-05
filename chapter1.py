@@ -248,17 +248,37 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #             odd_or_even = "odd"
 #         print("Number is {}. This is an {} number".format(i,odd_or_even))
 # odd_even()
+# #
+# def multiply(args,a):
+#     return [x * a for x in args]
 #
-def multiply(args,a):
-    return [x * a for x in args]
+# # print(multiply([1,2,3,4],5))
+#
+# def layered_multiples(arr):
+#     new_arr = []
+#     for i in arr:
+#         x = [1] * i
+#         new_arr.append(x)
+#     return new_arr
+#
+# print(layered_multiples(multiply([2,4,5],3)))
 
-# print(multiply([1,2,3,4],5))
-
-def layered_multiples(arr):
-    new_arr = []
-    for i in arr:
-        x = [1] * i
-        new_arr.append(x)
-    return new_arr
-
-print(layered_multiples(multiply([2,4,5],3)))
+##################SCORES AND GRADES#####################
+####################################
+#####################
+# from random import randint
+#
+# def scores_and_grades():
+#     for i in range(10):
+#         grade = randint(60,100)
+#         if grade >= 60 and grade <= 69:
+#             print("Score: {}; Your grade is D".format(grade))
+#         elif grade > 69 and grade <= 79:
+#             print("Score: {}; Your grade is C".format(grade))
+#         elif grade > 80 and grade <= 89:
+#             print("Score: {}; Your grade is B".format(grade))
+#         else:
+#             print("Score: {}; Your grade is A".format(grade))
+#     print("End of program. Bye!")
+#
+# scores_and_grades()

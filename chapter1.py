@@ -392,3 +392,9 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # favorite_animal = ["horse", "cat", "spider", "giraffe", "ticks", "dolphins", "llamas"]
 #
 # print(makeDict(name,favorite_animal))
+
+# import requests
+#
+# r = requests.get("http://www.google.com?q=cats")
+# print(r.status_code)
+# print(r.content)

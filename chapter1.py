@@ -371,3 +371,24 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # }
 #
 # print(dict_to_tuple(my_dict))
+
+# #making dictionaries
+# def makeDict(list1,list2):
+#     dict = {}
+#     if len(list1) > len(list2):
+#         longer = list1
+#         shorter = list2
+#     else:
+#         longer = list2
+#         shorter = list1
+#     for index,item in enumerate(longer):
+#         if shorter[index]:
+#             dict[item] = shorter[index]
+#         else:
+#             dict[item] = ""
+#     return dict
+#
+# name = ["Anna", "Eli", "Pariece", "Brendan", "Amy", "Shane", "Oscar"]
+# favorite_animal = ["horse", "cat", "spider", "giraffe", "ticks", "dolphins", "llamas"]
+#
+# print(makeDict(name,favorite_animal))

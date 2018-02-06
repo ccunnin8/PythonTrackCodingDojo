@@ -357,3 +357,17 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 # for x,y in enumerate(users["Instructors"]):
 #     name = y["first_name"].upper() + " " + y["last_name"].upper()
 #     print(str(x+1) + " - " + name + str(len(y["first_name"] + y["last_name"])))
+
+# def dict_to_tuple(dict):
+#     tuples = []
+#     for item in dict:
+#         tuples.append((item,dict[item]))
+#     return tuples
+#
+# my_dict = {
+#   "Speros": "(555) 555-5555",
+#   "Michael": "(999) 999-9999",
+#   "Jay": "(777) 777-7777"
+# }
+#
+# print(dict_to_tuple(my_dict))

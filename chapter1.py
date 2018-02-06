@@ -324,3 +324,36 @@ Create a program that prints the average of the values in the list: a = [1, 2, 5
 #     "favorite language": "Python"
 # }
 # print(my_info["name"])
+
+#######################NAMES#####################################
+#############################################################
+########################################
+# students = [
+#      {'first_name':  'Michael', 'last_name' : 'Jordan'},
+#      {'first_name' : 'John', 'last_name' : 'Rosales'},
+#      {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+#      {'first_name' : 'KB', 'last_name' : 'Tonel'}
+# ]
+# for student in students:
+#     print(student["first_name"] + " " + student["last_name"])
+
+# users = {
+#  'Students': [
+#      {'first_name':  'Michael', 'last_name' : 'Jordan'},
+#      {'first_name' : 'John', 'last_name' : 'Rosales'},
+#      {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+#      {'first_name' : 'KB', 'last_name' : 'Tonel'}
+#   ],
+#  'Instructors': [
+#      {'first_name' : 'Michael', 'last_name' : 'Choi'},
+#      {'first_name' : 'Martin', 'last_name' : 'Puryear'}
+#   ]
+#  }
+# print("Students")
+# for x,y in enumerate(users["Students"]):
+#     name = y["first_name"].upper() + " " + y["last_name"].upper()
+#     print(str(x+1) + " - "  + name + str(len(y["first_name"] + y["last_name"])))
+# print("Instructors")
+# for x,y in enumerate(users["Instructors"]):
+#     name = y["first_name"].upper() + " " + y["last_name"].upper()
+#     print(str(x+1) + " - " + name + str(len(y["first_name"] + y["last_name"])))
